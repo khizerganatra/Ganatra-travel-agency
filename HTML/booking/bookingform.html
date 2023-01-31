@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../CSS/bookingform.css" type="text/css" rel="stylesheet">
+    <title>booking form </title>
+</head>
+<body>
+    
+  
+    <div class="logoandnavigationbar">
+        <a href="../index.html"><img src="../images/logo.svg" id="top_page" height="200px" width="200px
+            "/></a>
+
+    <h1>BOOKING FORM</h1>
+    
+    
+    <hr/>
+        <a href="../index.html"><button>HOME</button></a>
+        <a href="../tour shedule/tour_shedule.html"><button>TOUR SHEDULES</button></a>
+        <a href="bookingindex.html"><button>BOOK HERE</button></a>
+        <a href="../articles/tourism_in_pakistan/tourisminpakistanindexl.html"><button>ARTICLES</button></a>
+        <a href="../about us/aboutus.html"><button>ABOUT US</button></a>
+        <a href="../contact us/contactus.html"><button>CONTACT US</button></a>
+    <hr/>
+        </div>
+
+
+
+
+ <div class="form_parent">   
+    <div class="form_child">    
+        <form>
+            <fieldset>
+                <legend class="legend1">PERSONAL INFORMATION</legend>
+                <label reqiured>NAME</label>
+                <input type="text" required/>
+                <br/>
+                <br/>
+                <label>FATHER NAME</label>
+                <input type="text" required/>
+                <br/>
+                <br/>
+                <label>CNIC</label>
+                <input type="number" maxlength="14" required/>
+                <br/>
+                <br/>
+                <label>GENDER</label>
+                <input type="radio" name="gender" value="male" required/>male
+                <input type="radio" name="gender" value="female" required/>female
+                <br/>
+                <br/>
+                <label>DATE OF BIRTH</label>
+                <input type="date" required/>
+                <br/>
+                <br/>
+                <label>EMAIL</label>
+                <input type="email" required/>
+            <br/>
+                <br/>
+                <label>PHONE NUMBER</label>
+                <input type="number" maxlength="11" required/>
+                <br/>
+                <br/>
+                <label>PROFESSION TYPE</label>
+                <select name="profession type" required>
+                    <option>---enter your profession type---</option>
+                    <option value="student">STUDENT</option>
+                    <option value="job">JOB</option>
+                    <option value="buisness">BUISNESS</option>
+                    <option value="others">OTHERS</option>
+                </select>
+            </fieldset>
+
+            <br/>
+
+            <fieldset>
+                <legend>BOOKING DETAILS</legend>
+                <label class="legend2">TOUR TYPE</label>
+                <select name="tour type" required>
+                    <option>--SELECT YOUR TOUR TYPE</option>
+                    <option value="economy">ECONOMY</option>
+                    <option value="3-star">3-STAR</option>
+                    <option value="5-star">5-STAR</option>
+                </select>
+                <br/><br/>
+                <label>FROM</label>
+                <input type="date" required/>
+                <br/>
+                <br/>
+                <label>TO</label>
+                <input type="date" required/>
+                <br/>
+                <br/>
+                <label>PROVINCES:</label>
+                <br/>
+                <br/>
+                <input type="checkbox" name="province" value="sindh">SINDH 
+                <br/>
+                
+                <input type="checkbox" name="province" value="punjab">PUNJAB
+                
+                <br/> 
+                <input type="checkbox" name="province" value="balochistan">BALOCHISTAN
+                
+                <br/>
+                <input type="checkbox" name="province" value="kpk">KPK 
+
+                
+            </fieldset>
+
+            <br/>
+
+            <fieldset>
+                <legend class="legend3">PAYMENT DETAILS</legend>
+                <label>ACCOUNT TITLE</label>
+                <input type="text"/>
+                <br/>
+                <br/>
+                <label>ACCOUNT NUMBER</label>
+                <input type="number"/>
+                <br/>
+                <br/>
+                <label>ACCOUNT PASS</label>
+                <input type="password"/>
+            </fieldset>
+
+            <br/>
+            <div class="button_div">
+
+            <input class="button" id="button_submit" type="submit">
+            <input class="button" id="button_reset" type="reset">
+        </div>
+
+
+        </form>
+    </div>
+    </div>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+.logoandnavigationbar{
+    text-align: center;
+}
+
+.form_parent{
+    padding: 20px;
+    background-color: rgb(27, 25, 25);
+    
+    border-radius: 20px;
+
+}
+.form_child{
+    border-radius: 20px;
+    background-color: rgb(39, 37, 37);
+    width: 70%;
+   margin-right: auto;
+   margin-left: auto; 
+    padding: 40px;
+    color: white;
+}
+
+.button{
+    
+    color: wheat;
+    
+}
+#button_submit{
+    text-align: center;
+    background-color: rgba(76, 236, 55, 0.973);
+    border-radius: 10px;
+}
+
+#button_reset{
+    background-color: rgb(201, 50, 50);
+    text-align: center;
+    border-radius: 10px;
+   
+}
+    
+    
+
+.button_div{
+    text-align: center;
+    
+}

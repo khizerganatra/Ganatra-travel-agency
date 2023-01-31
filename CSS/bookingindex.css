@@ -1,0 +1,43 @@
+.for_booking{
+
+    color: rgb(180, 134, 35);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    
+    
+}
+th , td , tr{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+
+
+}
+
+.logo{
+
+    text-align: center;
+
+
+}
+
+.nav_bar{
+
+    text-align: center;
+
+}
+
+.para{
+
+    text-align: center;
+
+}
+
+.book_button{
+
+    text-align: center;
+}

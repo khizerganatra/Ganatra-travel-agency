@@ -1,0 +1,39 @@
+
+.logo{
+
+    text-align: center;
+
+
+}
+
+.page-heading{
+    text-align: center;
+    
+}
+
+.nav_bar{
+
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    width: 60%;
+    justify-content: center;
+    border-radius: 10px;
+    }
+
+.nav_bar button{
+    color: white;
+    background-color: rgb(255, 174, 0);
+    border: none;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.para{
+    padding: 50px;
+    margin-left: 150px;
+    
+}
